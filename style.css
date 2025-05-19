@@ -1,0 +1,129 @@
+body {
+    background-color: #fdd7b4;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #ff9800;
+}
+.logo img {
+    width: 80px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+nav ul li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #FBA518;
+}
+
+#hero img {
+    width: 100%;
+}
+#about {
+    background-image: url(asset/diecast-models-brands.jpg);
+    background-position: right;
+    background-attachment: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    padding: 40px;
+    background-color: #f0f1f7;
+}
+#about h2 {
+  margin-top: 50px;
+  width: 50%;
+  padding-left: 40px;
+}
+#about p {
+  width: 50%;
+  padding-left: 40px;
+  line-height: 1.7em;
+}
+#product {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+#product h2 {
+    text-align: center;
+    color: #ff9800;
+}
+.card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.price {
+    color: grey;
+    font-size: 22px;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #ff4444;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+.buy-now-button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #ff9800;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+}
+button {
+    pointer-events: auto;
+    cursor: pointer;
+}
+button {
+    pointer-events: auto;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    background-color: #592c05;
+    color: #ffffff;
+    padding: 25px;
+    font-weight: bold;
+    border-radius: 0 0 60px 60px;
+}
